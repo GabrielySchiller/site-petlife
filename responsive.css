@@ -1,0 +1,173 @@
+@media (min-width: 300px) and (max-width: 484px){
+    #inicio img{
+        max-width: 300px;
+        flex-direction: column;
+    }
+    .texto-inicio{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #inicio{
+        flex-direction: column;
+    }
+
+    .absolute{
+        display: none;
+    }
+
+    .cabecalho{
+        gap: 100px;
+    }
+
+    #clinica{
+        flex-direction: column;
+        margin-top: -100px;
+    }
+
+    #farmacia img{
+        max-width: 400px;
+        align-items: center;
+        justify-content: center;
+        margin-top: -90px;
+        margin-left: -20px;
+    }
+    #farmacia .paragrafo{
+        margin-top: -70px;
+    }
+
+    #duvidas{
+        flex-direction: column;
+    }
+
+    .rodape{
+        flex-direction: column;
+    }
+
+
+}
+
+@media ( min-width: 1086px ) and (max-width: 1136px){
+    
+    .texto-inicio{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .absolute{
+        display: none;
+    }
+
+    #clinica{
+        flex-direction: column;
+        margin-top: -100px;
+    }
+
+    #farmacia img{
+        max-width: 400px;
+        align-items: center;
+        justify-content: center;
+        margin-top: -90px;
+        margin-left: -20px;
+    }
+    #farmacia .paragrafo{
+        margin-top: -70px;
+    }
+
+    #duvidas{
+        flex-direction: column;
+    }
+
+    .rodape{
+        flex-direction: column;}
+    
+
+}
+
+@media ( min-width: 873px ) and (max-width: 1084px){
+    .texto-inicio{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .titulo-inicio , h2{
+        font-size: 20px;
+
+    }
+    .absolute{
+        display: none;
+    }
+
+    .foto-inicio{
+        max-width: 300px;
+    }
+
+    #clinica{
+        flex-direction: column;
+        margin-top: -100px;
+    }
+
+    #farmacia img{
+        max-width: 400px;
+        align-items: center;
+        justify-content: center;
+        margin-top: -90px;
+        margin-left: -20px;
+    }
+    #farmacia .paragrafo{
+        margin-top: -70px;
+    }
+
+    #duvidas{
+        flex-direction: column;
+    }
+
+    .rodape{
+        flex-direction: column;}
+
+}
+
+@media ( min-width: 485px ) and (max-width: 873px){
+    .texto-inicio{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        max-width: 200px;
+    }
+    
+    .titulo-inicio , h2{
+        font-size: 20px;
+    }
+
+   .foto-inicio{
+    max-width: 300px;
+    margin-left: 0px;
+}
+
+.absolute{
+    display: none;
+}
+
+#clinica{
+    flex-direction: column;
+    margin-top: -100px;
+}
+
+#farmacia img{
+    max-width: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -90px;
+    margin-left: -20px;
+}
+#farmacia .paragrafo{
+    margin-top: -70px;
+}
+
+#duvidas{
+    flex-direction: column;
+}
+
+}
